@@ -1,0 +1,27 @@
+{
+	"name": "app.ui.slideshow",
+	"version": "0.0.1",
+	"author": "makesites",
+	"authors": [
+		"Makis Tracend <makis@makesit.es>"
+	],
+	"description": "A custom element to feature a simple slideshow using CSS transitions",
+	"keywords": [
+		"app",
+		"ui",
+		"component",
+		"web-components"
+	],
+	"license": "MIT",
+	"repository" : "http://github.com/app-ui/slideshow",
+	"main": ["./src/main.js"],
+	"ignore": [
+		"bower_components",
+		"components",
+		"node_modules"
+	],
+	"dependencies": {
+		"backbone.ui.slideshow": "*",
+		"webcomponentsjs": "*"
+	}
+}
