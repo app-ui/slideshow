@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+	<title>APP UI: Slideshow - Static</title>
+
+	<!-- Importing Web Component's Polyfill -->
+	<script src="../components/webcomponentsjs/webcomponents.min.js"></script>
+
+	<!-- Importing Custom Element -->
+	<link rel="import" href="../">
+
+	<!-- Example styles -->
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	html, body {
+		width: 100%;
+		height: 100%;
+	}
+
+	slide {
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+
+	slide:nth-child(1) {
+		background-image: url(http://farm9.staticflickr.com/8356/8404884161_f1d3efe9d6_b.jpg);
+	}
+	slide:nth-child(2) {
+		background-image: url(http://farm9.staticflickr.com/8349/8167535290_d824c3e7d2_b.jpg);
+	}
+	slide:nth-child(3) {
+		background-image: url(http://farm9.staticflickr.com/8453/8059886973_11c86732d5_o.jpg);
+	}
+	slide:nth-child(4) {
+		background-image: url(http://farm8.staticflickr.com/7129/7562872548_ebed30f6de_b.jpg);
+	}
+	slide:nth-child(5) {
+		background-image: url(http://farm9.staticflickr.com/8189/8112899870_8366c510bc_b.jpg);
+	}
+	slide:nth-child(6) {
+		background-image: url(http://farm9.staticflickr.com/8245/8492983790_561c261239_b.jpg);
+	}
+	slide:nth-child(7) {
+		background-image: url(http://farm9.staticflickr.com/8288/7843768142_531a2de876_b.jpg);
+	}
+	</style>
+</head>
+<body>
+
+<ui-slideshow>
+	<slide>1</slide>
+	<slide>2</slide>
+	<slide>3</slide>
+	<slide>4</slide>
+	<slide>5</slide>
+	<slide>6</slide>
+	<slide>7</slide>
+</ui-slideshow>
+
+</body>
+</html>
